@@ -15,12 +15,23 @@ public class AddressBook {
         } else {
             System.out.println("The given identifier / type is not found");
         }
+    } 
+
+    public void searchInformation(String typeOfIdentifier, String identifier){
+        AddressBookEntry targetEntry = entryContainsIdentifier(typeOfIdentifier, identifier);
+        outputInfoOfTargetEntry(targetEntry);
+    }
+
+    private void outputInfoOfTargetEntry(AddressBookEntry targetEntry){
+        System.out.println("name: " + targetEntry.getName());
+        System.out.println("phone" + targetEntry.getPhone());
+        System.out.println("email " + targetEntry.getEmail());
     }
 
     private AddressBookEntry entryContainsIdentifier(String typeOfIdentifier, String identifier){
         for(AddressBookEntry entry : addressBook){
             switch (typeOfIdentifier) {
-                case "name" ->  
+                case "name" -> 
                     {if(entry.getName().equals(identifier)){
                         return entry;
                     }}
