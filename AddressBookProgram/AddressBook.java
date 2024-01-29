@@ -37,7 +37,7 @@ public class AddressBook {
                     }}
                 case "phone" ->
                     {if(entry.getPhone().equals(identifier)){
-                    return entry;
+                        return entry;
                     }}
                 case "email" ->
                     {if(entry.getEmail().equals(identifier)){
