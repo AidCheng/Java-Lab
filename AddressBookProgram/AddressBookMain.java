@@ -2,15 +2,15 @@ package AddressBookProgram;
 import IO.Input;
 
 final class Mode{
-    public static final int END = 0;
-    public static final int ADD = 1;
-    public static final int REMOVE = 2;
-    public static final int SEARCH = 3;
+    public static final String END = "0";
+    public static final String ADD = "1";
+    public static final String REMOVE = "2";
+    public static final String SEARCH = "3";
 }
 
-class AddressBookMain {
+public class AddressBookMain {
     private AddressBook newBook = new AddressBook();
-    private int mode;
+    private String mode;
     private final Input in = new Input();
 
     private void chooseMode(){
@@ -30,7 +30,7 @@ class AddressBookMain {
     }
 
     private void inputMode(){
-        mode = in.nextInt();
+        mode = in.nextLine();
     }
 
     private void handleDifferentMode(){
@@ -83,7 +83,7 @@ class AddressBookMain {
     private void exec(){
         while(true){
             chooseMode();
-            if (mode == Mode.END){
+            if (mode.equals(Mode.END)){
                 break;
             } else {
                 handleDifferentMode();
