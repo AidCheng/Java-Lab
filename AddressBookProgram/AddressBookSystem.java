@@ -8,7 +8,7 @@ final class Mode{
     public static final String SEARCH = "3";
 }
 
-public class AddressBookMain {
+public class AddressBookSystem {
     private AddressBook newBook = new AddressBook();
     private String mode;
     private final Input in = new Input();
@@ -92,7 +92,7 @@ public class AddressBookMain {
     }
 
     public static void main(String[] args){
-        AddressBookMain newAddressProgram = new AddressBookMain();
+        AddressBookSystem newAddressProgram = new AddressBookSystem();
         newAddressProgram.exec();
     }
 }

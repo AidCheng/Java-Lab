@@ -1,6 +1,7 @@
 package AddressBookProgram;
 public class AddressBookEntry
 {
+    
     private String name;
     private String phone;
     private String email;
