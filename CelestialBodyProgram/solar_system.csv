@@ -1,0 +1,11 @@
+Name,Mass(kg),Radius(m),Radius to Parent (AU),Parent
+Sun,1.989e30,6.957e8,, 
+Mercury,3.285e23,2.439e6,0.39,Sun
+Venus,4.867e24,6.052e6,0.72,Sun
+Earth,5.972e24,6.371e6,1,Sun
+Moon,7.349e22,1.737e6,0.00257,Earth
+Mars,6.39e23,3.389e6,1.52,Sun
+Jupiter,1.898e27,6.9911e7,5.2,Sun
+Saturn,5.683e26,5.8232e7,9.58,Sun
+Uranus,8.681e25,2.5362e7,19.22,Sun
+Neptune,1.024e26,2.4622e7,30.05,Sun

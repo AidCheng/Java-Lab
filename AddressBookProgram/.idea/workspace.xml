@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e92755-972e-45c6-9331-8e8a3703fb15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AddressBookEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/AddressBookEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddressBookMain.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e4e92755-972e-45c6-9331-8e8a3703fb15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +76,7 @@
       <workItem from="1706612547100" duration="198000" />
       <workItem from="1706612751018" duration="612000" />
       <workItem from="1706703980863" duration="62000" />
+      <workItem from="1706825903906" duration="30000" />
     </task>
     <servers />
   </component>

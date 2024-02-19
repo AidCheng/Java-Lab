@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3086abb0-b3cc-4465-9dfe-560794a739e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AddressBookProgram/AddressBookEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/AddressBookProgram/AddressBookEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddressBookProgram/AddressBookMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddressBookProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AddressBookProgram/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +116,7 @@
       <workItem from="1706612678861" duration="66000" />
       <workItem from="1706612750313" duration="1197000" />
       <workItem from="1706703981733" duration="62000" />
+      <workItem from="1706825903489" duration="32000" />
     </task>
     <servers />
   </component>

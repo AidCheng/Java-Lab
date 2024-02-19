@@ -5,21 +5,25 @@ import java.util.ArrayList;
 public class CelestialBody {
     private String name;
     private Double massKg;
+    private Double radiusKm;
     private Double combinedMassKg = massKg;
-    private Double radiusFromParentKm;
+    private Double radiusFromParentAU;
     private CelestialBody orbitedBody;
 
     ArrayList<CelestialBody> bodiesOnOrbit = new ArrayList<>();
 
     // initialiser
-    public CelestialBody(String name){
-        this.name = name;
-    }    
-
-    public CelestialBody(String name, Double massKg, Double radiusFromParentKm){
+    public CelestialBody(String name, Double massKg, Double radiusKm){
         this.name = name;
         this.massKg = massKg;
-        this.radiusFromParentKm = radiusFromParentKm;
+        this.radiusKm = radiusKm;
+    }    
+
+    public CelestialBody(String name, Double massKg, Double radiusKm, Double radiusFromParentAU){
+        this.name = name;
+        this.massKg = massKg;
+        this.radiusKm = radiusKm;
+        this.radiusFromParentAU = radiusFromParentAU;
     }
 
     // getter
@@ -28,7 +32,7 @@ public class CelestialBody {
     }
 
     public Double getRadiusFromParentKm(){
-        return radiusFromParentKm;
+        return radiusFromParentAU;
     }
 
     public Double getMassKg(){
@@ -42,9 +46,10 @@ public class CelestialBody {
     public String toString(){
         String celestialBodyInformation = 
             "Name: " + name + "  " +
+            "Radius " + radiusKm + " km " +
             "Mass: " + massKg + " kg " +
             "Radius from parent " + orbitedBody.name + 
-            " is " + radiusFromParentKm + " km ";
+            " is " + radiusFromParentAU + " AU ";
         return celestialBodyInformation;
     }
 
